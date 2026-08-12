@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import AuthContent from '../components/Auth/AuthContent';
-import LoadingOverlay from '../components/UI/LoadingOverlay';
+import LoadingOverlay from '../components/ui/LoadingOverlay';
 import { createUser } from '../util/auth';
 import { Alert } from 'react-native';
 import { AuthContext } from '../store/auth-context';
